@@ -1,0 +1,10 @@
+name: Generate Podcase Feeds
+on: [push]
+jobs: 
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v3
+      - name: Run Feed Generator
+        uses: nkowsik/potcast-generator@main
