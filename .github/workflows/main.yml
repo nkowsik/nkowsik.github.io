@@ -1,7 +1,7 @@
 name: Generate Podcase Feeds
 on:
   schedule:
-  - cron: "0 */6 * * *"
+  - cron: "0 */1 * * *"
 jobs: 
   build:
     runs-on: ubuntu-latest
